@@ -1,0 +1,157 @@
+/*#header {
+  overflow: hidden;
+  background: none;
+  padding: 20px 10px;
+  padding-top: 695px;
+  display: flex;
+  flex-direction: row;
+}
+
+header img{
+  height: 110px;
+  width: 110px;
+  position: relative;
+  text-decoration: none;
+  margin-left: 54px;
+  margin-top: 25px;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+    line-height: normal;
+}
+
+.header-center {
+    position: relative;
+    float: center;
+    height: 100px;
+    width: 400px;
+    display: flex; 
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+<style>
+    @charset "utf-8";
+
+    @font-face {
+      font-family: 'nagoda';
+      src: url('Nagoda.woff') format('woff'),
+        url('Nagoda.otf') format('otf'),
+        url('Nagoda.ttf') format('ttf');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    .navigation {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    #logo_header {
+      height: 110px;
+      width: 110px;
+      position: relative;
+      text-decoration: none;
+      margin-left: 54px;
+      margin-top: 25px;
+    }
+
+    ul {
+      text-align: center;
+    }
+
+    #menu {
+      font-family: 'nagoda';
+      font-size: 25px;
+      text-decoration: none;
+      list-style: none;
+      list-style-type: none;
+      align-items: center;
+    }
+
+    #header {
+      overflow: hidden;
+      background: none;
+      padding: 20px 10px;
+      padding-top: 695px;
+      display: flex;
+      flex-direction: row;
+    }
+
+/*this is what puts them menu items in a row*/
+
+    #menu {
+      display: flex;
+      flex-direction: row;
+    }
+
+/*this is what makes them spaced out*/
+
+    .header a {
+      color: #383838;
+      text-align: center;
+      padding: 12px;
+      text-decoration: none;
+      font-size: 25px;
+      line-height: 15px;
+      border-radius: 5px;
+      margin: 70px;
+    }
+
+    .header a:hover {
+      background-color: #ed1c24;
+      color: white;
+    }
+
+    .header a.active {
+      background-color: #ed1c24;
+      color: white;
+    }
+
+    li {
+      line-height: normal;
+    }
+
+    .header-center {
+      height: 100px;
+      width: 400px;
+      display: flex;
+      justify-content: center;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+    }
+
+
+    @media screen and (max-width: 800px) {
+      .header a {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+      }
+    }
+
+    body {
+      background-image: url(Image_bg1.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: local;
+      background-size: cover;
+      width: 1440px;
+      height: 695px;
+    }
+  </style>
